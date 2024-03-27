@@ -22,17 +22,20 @@ p {
 
 .text--purple {
     color: #6030b1;
-}
-
-.row {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    margin: left;
 }
 
 .nav__container {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+.title__wrapper {
+    display: flex;
     align-items: center;
 }
 
@@ -47,6 +50,8 @@ p {
 
 .logo {
     height: 48px;
+    display: flex;
+    justify-content: center;
 }
 
 .nav__link-primary {
@@ -55,6 +60,32 @@ p {
     border-radius: 50px;color: white;
 }
 
+.landing {
+    margin-top: 36px;
+}
+
+.landing__container {
+    display: flex;
+}
+
+.landing__container>.left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.landing__container>.right {
+    height: auto;
+    max-width: 48rem;
+}
+
+.subtitle__1 {
+    font-size: 48px;
+}
+
+.subtitle__2 {
+    display: flex;
+}
 
 /* Landing Page */
 
