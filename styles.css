@@ -21,7 +21,7 @@ p {
 }
 
 .text--purple {
-    color: #6030b1;
+    color: #6415ff;
     margin: left;
 }
 
@@ -55,7 +55,7 @@ p {
 }
 
 .nav__link-primary {
-    background-color: #6030b1;
+    background-color: #6415ff;
     padding: 8px 20px;
     border-radius: 50px;color: white;
 }
@@ -77,6 +77,27 @@ p {
 .landing__container>.right {
     height: auto;
     max-width: 48rem;
+}
+
+.email {
+    background: #ffffff;
+    padding: 20px 192px 20px 32px;
+}
+
+.button__1 {
+    color: #f7fafc;
+    background: #6415ff;
+    margin: 8px 8px 8px 0px;
+    padding: 16px 0px;
+}
+
+.customers {
+    color: #a0aec0;
+}
+
+.companies {
+    margin: 16px 0px 0px;
+    padding: 0px 128px 0px 0px;
 }
 
 .subtitle__1 {
